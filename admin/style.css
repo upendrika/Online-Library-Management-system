@@ -1,0 +1,129 @@
+
+/*------------------------------Main code INDEX ----------------- */
+
+.wrapper{
+	height: 650px;
+	width:1350px;
+	/*background-color: red;*/
+}
+
+header{
+	height: 150px;
+	width: 1480px;
+	background-color: black;
+}
+
+section{
+	height: 540px;
+	width: 1480px;
+	
+}
+footer{
+	height: 80px;
+	width: 1480px;
+	background-color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+	float: left;
+	padding-left: 10px;
+}
+
+.logo img{
+
+	padding-left: 50px;
+}
+
+
+li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+section .sec_img{
+	height: 625px;
+	margin-top: -95px;
+	background-image: url("images/11.jpg") ;
+}
+
+.box{
+	height: 250px;
+	width: 500px;
+	background-color: #280302;
+	margin: 70px auto;
+	opacity: .6;
+	color: white;
+}
+
+.back-video{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+	.back-video{
+		width: 100%;
+		height: auto;
+
+	}
+}
+
+
+@media (max-aspect-ratio: 16/9){
+	.back-video{
+		width: auto;
+		height: 100%;
+
+	}
+}
+
+ /* ------------------------ student_Login --------------------*/
+
+
+.log_img{
+	height: 700px;
+	margin-top: 0px;
+	background-image: url("images/3.jpeg") ;
+}
+
+
+
+form .login{
+	margin: auto 70px;
+}
+
+input{
+	height: 25px;
+	width: 300px;
+}
+/*-------------------------------registration --------------------*/
+
+.reg_img{
+	height: 700px;
+	margin-top: 0px;
+	background-image: url("images/reg.png") ;
+}
+
+.box2{
+	height: 610px;
+	width: 550px;
+	background-color: black;
+	margin: 0px auto;
+	opacity: .7;
+	color: white;
+	padding: 20px;
+}
+form .Registration{
+	margin: auto 60px;
+}
